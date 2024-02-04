@@ -19,5 +19,5 @@ class Rentadora : Electrodomestic {
                 }
     }
     // Getter
-    fun getCàrrega(): Int = carrega
+    fun getCarrega(): Int = carrega
 }
