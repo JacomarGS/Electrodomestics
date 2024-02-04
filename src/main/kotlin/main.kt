@@ -1,7 +1,7 @@
 fun main() {
     // 1. Crear diez electrodomésticos diferentes, dos rentadoras y dos televisions.
     val electrodomestics = arrayOf(
-        Electrodomestic(200.0, pColor = "negre", pConsum = "B", pPes = 10),
+        Electrodomestic(200.0, pColor = "negre", "B", pPes = 10),
         Electrodomestic(150.0, "gris", "C", 15),
         Electrodomestic(300.0, "blanc", "A", 25),
         Electrodomestic(250.0, "platejat", "D", 30),
