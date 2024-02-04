@@ -1,7 +1,12 @@
 //Subclase Televisió, que hereda de la superclase Electrodom'estic
-class Televisio(): Electrodomestic() {
+class Televisio: Electrodomestic {
     // Atributo propio
-    private var mida:Int = 28
+    private var mida:Int
+
+    // Constructor
+    constructor(pMida:Int = 28) {
+        this.mida = pMida
+    }
 
     // Método propio
     override fun preuFinal(): Double {

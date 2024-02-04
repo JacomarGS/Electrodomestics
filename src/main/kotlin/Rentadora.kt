@@ -1,8 +1,12 @@
 // Subclase Rentadora, que hereda de la superclase Electrodomèstic.
-class Rentadora() : Electrodomestic() {
+class Rentadora : Electrodomestic {
     // Atributo propio
-    private var carrega:Int = 5
+    private var carrega:Int
 
+    // Constructor
+    constructor(pCarrega:Int = 5) {
+        this.carrega = pCarrega
+    }
     // Método propio
     override fun preuFinal(): Double {
         return super.preuFinal() +

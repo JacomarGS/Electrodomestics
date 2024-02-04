@@ -1,10 +1,18 @@
 //Superclase Electrodomèstic
-open class Electrodomestic () {
+open class Electrodomestic {
     // Atributos
-    private var preuBase: Double = 100.0
-    private var color: String = "blanc"
-    private var consum: String = "G"
-    private var pes: Int = 5
+    private var preuBase: Double
+    private var color: String
+    private var consum: String
+    private var pes: Int
+
+    // Constructor
+    constructor(pPreuBase:Double = 100.0, pColor:String = "blanc", pConsum:String = "G", pPes:Int = 5) {
+        this.preuBase = pPreuBase
+        this.color = pColor
+        this.consum = pConsum
+        this.pes = pPes
+    }
 
     // Métodos
     open fun preuFinal(): Double {
