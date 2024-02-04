@@ -25,4 +25,9 @@ open class Electrodomestic () {
                     else -> 100.0
                 }
     }
+    // Getters
+    fun getPreuBase(): Double = preuBase
+    fun getColor(): String = color
+    fun getConsum(): String = consum
+    fun getPes(): Int = pes
 }

@@ -13,4 +13,6 @@ class Televisio(): Electrodomestic() {
                     else -> 200.0
                 }
     }
+    // Getter
+    fun getMida(): Int = mida
 }

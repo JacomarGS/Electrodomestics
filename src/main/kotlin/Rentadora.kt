@@ -14,4 +14,6 @@ class Rentadora() : Electrodomestic() {
                     else -> 0.0
                 }
     }
+    // Getter
+    fun getCàrrega(): Int = carrega
 }
